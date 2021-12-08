@@ -39,16 +39,34 @@
         <div class="summary">
             <h2>Summary</h2>
             <Summary />
+            <button class="sellBtn"> Sell </button>
         </div>
     </div>
 </main>
 
 <style>
+    .sellBtn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 38px;
+        width: 270px;
+        height: 65px;
+        background: #4c56f6;
+        font-size: 14px;
+        font-weight: 700;
+        color: #fff;
+        border-radius: 5px;
+        border: none;
+        box-shadow: 0 10px 20px -15px #4c56f6;
+        cursor: pointer;
+    }
     .summary {
         padding-left: 16px;
     }
     .content {
         display: flex;
+        padding-bottom: 36px;
     }
     .row {
         display: flex;
@@ -101,6 +119,7 @@
         color: #a1a2b2;
         font-weight: 600;
         border-bottom: solid 3px #eff1f9;
+        cursor: pointer;
     }
 
     .header.selected {
