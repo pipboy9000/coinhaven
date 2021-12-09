@@ -21,9 +21,7 @@
             <span class="amount">299.99</span>
             <span class="coin">GBP</span>
         </div>
-        <div>
-            <span>Fee</span>
-        </div>
+        <span>Fee:</span>
         <span class="amount feeRight">10.00</span>
     </div>
     <div class="total">
@@ -83,6 +81,7 @@
         box-sizing: border-box;
         margin-top: 1px;
         border-radius: 0 0 5px 5px;
+        color: #2e306c;
     }
 
     .top {

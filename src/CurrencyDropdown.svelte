@@ -21,7 +21,7 @@
 <div
     class="selected"
     on:click={() => {
-        isOpen = true;
+        isOpen = !isOpen;
     }}
     on:focusout={() => {
         isOpen = false;
@@ -70,8 +70,9 @@
 
     .currencies {
         margin-top: 20px;
-        box-shadow: 0 10px 25px -22px;
+        box-shadow: 0 5px 25px -22px;
         position: absolute;
+        z-index: 9;
     }
 
     .currency {
